@@ -1,0 +1,161 @@
+@media screen and (max-width: 1199px) {
+    main .bienvenida div .article-b h2 {
+        width: max-content;
+        text-align: center;
+    }
+    main .bienvenida div .article-sec h2 {
+        align-items: center;
+        width: 100%;
+        
+    }
+    main .bienvenida div div .tittle-update h2 {
+        text-align: center;
+        width: 100%;
+    }
+    aside .destacado h2 {
+        width: max-content;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/** MEDIA QUERIES */
+@media screen and (max-width: 992px ) {
+    aside {
+        display: none;
+    }
+    main .div.builds .build-tittle h2 {
+        font-size: x-large;
+    }
+    .main .div.builds .build-tittle p {
+        font-size: medium;
+    }
+    main .div.builds .builds-cards .cards .build-article div img {
+        width: 40px;
+        height: 40px;
+    }
+    main .div.builds .builds-cards .cards .build-article div h2 {
+        color: #ffffff;
+        text-align: center;
+        padding-left: 10px;
+        text-transform: uppercase;
+        font-size: x-large;
+    }
+
+    main .div.builds .builds-cards .cards .build-article p {
+        font-size: small;
+    }
+
+}
+
+@media screen and (max-width: 767px ) {
+    main .bienvenida div article {
+        padding: 10px;
+        margin: 10px;
+    }
+    main .div.builds .build-tittle h2 {
+        font-size: small;
+    }
+    main .div.builds .build-tittle p {
+        font-size: media;
+    }
+    main .bienvenida div article h2 {
+        width: 100%;
+        text-align: center;
+    }
+    main .bienvenida div article p {
+        font-weight: bold;
+        font-size: small;
+    }
+    main .div.builds .builds-cards .cards .build-article div img {
+        width: 30px;
+        height: 30px;
+    }
+    main .div.builds .builds-cards .cards .build-article p {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 590px ) {
+    main .bienvenida div article h2 {
+        width: 100%;
+        text-align: center;
+        font-size: larger;
+    }
+    footer {
+        width: 90% !important;
+    }
+
+    footer .footer-icons {
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer .footer-icons a {
+        height: min-content;
+        text-align: center;
+        font-size: small;
+    }
+
+    .footer-icons img {
+        height: 30px;
+        width: 30px;
+    }
+    footer .footer-icons a img {
+        width: 25px;
+        height: 25px;
+    }
+    main .div.builds .build-tittle h2 {
+        font-size: medium;
+    }
+    main .div.builds .builds-cards .cards .build-article div h2 {
+        color: #ffffff;
+        text-align: center;
+        padding-left: 7px;
+        text-transform: uppercase;
+        font-size: medium;
+    }
+    main .div.builds .builds-cards .cards .build-article div p {
+        font-size: smaller;
+    }
+}
+
+
+@media (min-width: 350px) and (max-width: 590px ) {
+    header div .titulo h1 {
+        font-size: medium;
+        padding: 0%;
+        margin: 0%;
+    }
+    main {
+        width: 90% !important;
+    }
+    main .div.builds .builds-cards .cards .build-article div p {
+        font-size: smaller;
+    }
+    main .div.builds .build-tittle h2 {
+        font-size: small;
+    }
+}
+@media (min-width: 350px) and (max-width: 1333px ) {
+    body {
+
+        background: url(../img/fondonoche.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+    }
+    footer .footer-icons a {
+        height: min-content;
+        text-align: center;
+        font-size: small;
+    }
+
+    footer .footer-icons a img {
+        height: 30px;
+        width: 30px;
+    }
+}
